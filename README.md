@@ -11,9 +11,9 @@ The backend uses Java 17 and Spring Boot version 3.3.7.
 
 ## Features
 
-- ```bash /api/quiz/start?userId=1 ``` **Start a New Quiz**: Initiates a new quiz session for the user. 
-- ```bash /api/quiz/question?userId=1 ``` **Get a Random Question**: Returns a random question that the user hasn't answered yet.
-- ```bash /api/quiz/answer?userId=1&questionId=2&answer=4 ```   **Submit an Answer**: Accepts a user's answer and provides feedback (correct or incorrect).
+- ``` /api/quiz/start?userId=1 ``` **Start a New Quiz**: Initiates a new quiz session for the user. 
+- ``` /api/quiz/question?userId=1 ``` **Get a Random Question**: Returns a random question that the user hasn't answered yet.
+- ``` /api/quiz/answer?userId=1&questionId=2&answer=4 ```   **Submit an Answer**: Accepts a user's answer and provides feedback (correct or incorrect).
 
 ## Tech Stack
 
